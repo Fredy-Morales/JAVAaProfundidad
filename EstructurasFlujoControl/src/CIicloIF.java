@@ -9,7 +9,9 @@ class CicloIf {
         System.out.println("edad = " + edad);
         if (edad >= 18) {
             System.out.println("Usted es Mayor de edad ");}
-        else{
+        else if (edad<=15) {
+            System.out.println("voy a llamar a tus papas");
+        } else{
             System.out.println("Usted es menor de edad ");
 
         }
